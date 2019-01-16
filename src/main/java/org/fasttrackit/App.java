@@ -29,7 +29,13 @@ public class App
         double operation1 = mathOperation.numbersForDecrease(90);
        //System.out.println(operation1);
 
-        System.out.println(mathOperation.numbersForDecrease(5,4));
+        System.out.println(mathOperation.numbersForDecrease(5.3,4));
+
+        long operation10 = mathOperation.numbersForDecrease(4,5);
+        System.out.println(operation10);
+
+        int operation11 = mathOperation.numbersForDecrease(10);
+        System.out.println(operation11);
 
         //Overloaded method for sum number
 
@@ -54,6 +60,7 @@ public class App
 
         double operation6 = mathOperation.numbersForMultiplication(5);
         System.out.println(operation6);
+
 
 
 
